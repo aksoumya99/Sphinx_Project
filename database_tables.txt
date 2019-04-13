@@ -1,0 +1,4 @@
+create table users (firstname varchar(20),lastname varchar(20),password varchar(20),username varchar(20),email varchar(20),phone int(10),rating int(10));
+
+create table quizes (name varchar(20),qcode int(11) primary key not null auto_increment,date date,duration int(3),type text,about text);
+

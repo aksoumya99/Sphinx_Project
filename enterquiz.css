@@ -1,0 +1,129 @@
+body {
+  background-color: #ffffe6;
+  text-align:center;
+  /*font-family: Arial, Helvetica, sans-serif;*/
+}
+
+/* Three columns side by side */
+.column {
+  
+  width: 90%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  margin-top: 0px;
+  margin-left: 3%;
+  /*background-color: #ffffff;*/
+
+
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 0;
+  margin-left: 5%;
+  background-color: #ffffff;
+
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+  background-color: #ffffff;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.0rem;
+}
+
+
+.jumbotron h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 5.0rem;
+  
+}
+
+#n1 {
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: auto;
+  align-content: center;
+}
+
+#P1 {
+  font-size: 2.0rem;
+  font-weight: 100;
+  font-color: black;
+
+}
+
+#r1 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#P2 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  font-color: black;
+  
+}
+
+#r2 {
+  font-weight: 100;
+  text-decoration: none;
+
+}
+
+
+
+#bt {
+  text-align: center;
+}
+
+#p1 {
+  font-size: 1.3rem;
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px;
+}

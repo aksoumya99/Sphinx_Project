@@ -1,0 +1,85 @@
+body{
+	text-align: center;
+	background: #ffffe6;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+
+h2 {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-family: sans-serif;
+	font-style: italic;
+	background-color: #ffffe6;
+}
+
+
+h1{
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 20px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #00BF96;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: #00816A;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+input[type=radio] {
+    border: 0px;
+    /*width: 100%;*/
+    height: 2em;
+}
+
+#radio1 {
+	display: inline-block;
+	color: #396;
+	  font-weight: 100;
+	
+
+	  margin: 20px 0px 10px;
+}
+
+
+input[type=checkbox] {
+    border: 0px;
+    /*width: 100%;*/
+    /*height: 3em;*/
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin-bottom: 20px;
+}
