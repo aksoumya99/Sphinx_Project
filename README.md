@@ -8,3 +8,5 @@ Requirements:
    3.)username- pranjal_cpbyftz_tripathi@tfbnw.net password- pranjal123
    4.)username- open_igrhwvq_user@tfbnw.net password- testuser123
 4.)import sphinx.sql
+5.)Open localhost/project/homepage.php
+6.)Registration of admin has to be done manually by changing in database, in sphinx databse, table users, in column admin value has to be set to 1
