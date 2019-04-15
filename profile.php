@@ -82,15 +82,19 @@
 			</tr>";
 		while($rows = mysqli_fetch_array($result)){
 			$quiz = $rows['qcode'];
+			$query1 = "SELECT name FROM quizes WHERE qcode='$quiz'";
+			$result = mysqli_query($con,$query1);
+			$name = mysqli_fetch_array($result);
+			$qname = $name['name'];
 			$marks = $rows['marks'];
 
 			if($rows['eva_status'] == 1){
-			echo "<tr> <th> $quiz </th>".
+			echo "<tr> <th> $qname </th>".
 							   "<th> $marks </th>".	
 				"</tr>";
 			}
 			else{
-				echo "<tr> <th> $quiz </th>".
+				echo "<tr> <th> $qname </th>".
 							   "<th> yet to be evaluated. </th>".	
 				"</tr>";
 			}
